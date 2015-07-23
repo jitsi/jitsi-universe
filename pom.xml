@@ -53,6 +53,11 @@
         <version>1.6.1</version>
       </dependency>
       <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+      </dependency>
+      <dependency>
         <groupId>javax.sdp</groupId>
         <artifactId>jain-sdp</artifactId>
         <version>1.0-jitsi-1-SNAPSHOT</version>
@@ -73,6 +78,16 @@
         <version>4.4.0</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>4.0.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.0.1</version>
+      </dependency>
+      <dependency>
         <groupId>org.bitlet</groupId>
         <artifactId>weupnp</artifactId>
         <version>0.1.2-jitsi-1-SNAPSHOT</version>
@@ -89,7 +104,7 @@
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
-        <artifactId>jetty-proxy</artifactId>
+        <artifactId>jetty-ajp</artifactId>
         <version>${jetty.version}</version>
       </dependency>
       <dependency>
@@ -170,6 +185,11 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
+        <artifactId>jitsi-credentialsstorage</artifactId>
+        <version>${jitsi.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-dnsservice</artifactId>
         <version>${jitsi.version}</version>
       </dependency>
@@ -230,6 +250,11 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
+        <artifactId>jitsi-videobridge</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
         <artifactId>libjitsi</artifactId>
         <version>1.0-SNAPSHOT</version>
       </dependency>
@@ -267,7 +292,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.8.1</version>
+        <version>4.11</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
