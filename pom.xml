@@ -301,6 +301,11 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
+        <artifactId>newrelic-api-stub</artifactId>
+        <version>3.21.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
         <artifactId>zrtp4j-light</artifactId>
         <version>3.2.0-jitsi-1-SNAPSHOT</version>
       </dependency>
