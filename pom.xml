@@ -296,11 +296,6 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>libjitsi-protocol</artifactId>
-        <version>1.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
         <artifactId>newrelic-api-stub</artifactId>
         <version>3.21.0-SNAPSHOT</version>
       </dependency>
