@@ -38,12 +38,10 @@
   <properties>
     <bouncycastle.version>1.51</bouncycastle.version>
     <jetty.version>9.2.10.v20150310</jetty.version>
-    <jitsi.version>2.9-SNAPSHOT</jitsi.version>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j.version>1.7.7</slf4j.version>
-    <smack.version>3.2.2-jitsi-1-SNAPSHOT</smack.version>
   </properties>
 
   <dependencyManagement>
@@ -51,7 +49,7 @@
       <dependency>
         <groupId>callstats</groupId>
         <artifactId>callstats</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1-20160105.133358-6</version>
       </dependency>
       <dependency>
         <groupId>ch.imvs</groupId>
@@ -76,7 +74,7 @@
       <dependency>
         <groupId>dnsjava</groupId>
         <artifactId>dnsjava</artifactId>
-        <version>2.1.7-jitsi-1-SNAPSHOT</version>
+        <version>2.1.7-jitsi-1-20150723.151325-1</version>
       </dependency>
       <dependency>
         <groupId>dom4j</groupId>
@@ -91,7 +89,7 @@
       <dependency>
         <groupId>javax.sdp</groupId>
         <artifactId>jain-sdp</artifactId>
-        <version>1.0-jitsi-1-SNAPSHOT</version>
+        <version>1.0-jitsi-1-20150722.212426-1</version>
       </dependency>
       <dependency>
         <groupId>net.java.dev.jna</groupId>
@@ -171,12 +169,12 @@
       <dependency>
         <groupId>org.igniterealtime.smack</groupId>
         <artifactId>smack</artifactId>
-        <version>${smack.version}</version>
+        <version>3.2.2-jitsi-1-20151215.185921-3</version>
       </dependency>
       <dependency>
         <groupId>org.igniterealtime.smack</groupId>
         <artifactId>smackx</artifactId>
-        <version>${smack.version}</version>
+        <version>3.2.2-jitsi-1-20151215.185922-3</version>
       </dependency>
       <dependency>
         <groupId>org.igniterealtime.whack</groupId>
@@ -192,117 +190,117 @@
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>fmj</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20160121.172939-10</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>ice4j</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20151202.233708-16</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jicoco</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20160109.203023-16</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-android-osgi</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20150723.002702-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-configuration</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181638-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-contactlist</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181643-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-credentialsstorage</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181643-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-dnsservice</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181644-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-fileaccess</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181644-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-lgpl-dependencies</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20150723.002855-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-libjitsi</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181644-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-netaddr</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181645-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-packetlogging</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20151104.171808-2</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-protocol</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20151211.202410-3</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-protocol-jabber</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20151214.211356-5</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-protocol-media</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181646-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-resourcemanager</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181652-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-ui-service</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181654-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-util</artifactId>
-        <version>${jitsi.version}</version>
+        <version>2.9-20150723.181654-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-videobridge</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20160202.163439-54</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>libjitsi</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-20160202.152655-85</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>newrelic-api-stub</artifactId>
-        <version>3.21.0-SNAPSHOT</version>
+        <version>3.21.0-20151103.220245-1</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>zrtp4j-light</artifactId>
-        <version>3.2.0-jitsi-1-SNAPSHOT</version>
+        <version>3.2.0-jitsi-1-20150723.002345-1</version>
       </dependency>
       <dependency>
         <groupId>org.osgi</groupId>
@@ -322,7 +320,7 @@
       <dependency>
         <groupId>org.xmpp</groupId>
         <artifactId>jnsapi</artifactId>
-        <version>0.0.3-jitsi-1-SNAPSHOT</version>
+        <version>0.0.3-jitsi-1-20151013.145326-2</version>
       </dependency>
       <dependency>
         <groupId>rusv</groupId>
