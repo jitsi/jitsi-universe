@@ -154,6 +154,11 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
+        <artifactId>jitsi-version</artifactId>
+        <version>2.9-20160511.122033-1</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
         <artifactId>jitsi-videobridge</artifactId>
         <version>1.0-20160202.163439-54</version>
       </dependency>
